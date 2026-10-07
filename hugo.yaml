@@ -1,0 +1,229 @@
+# ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
+baseURL: https://toha.hugo-themes.com
+
+# Nosso Tema Soberano (Hard Fork)
+theme: "toha"
+
+# Use Hugo modules ONLY to mount local NPM assets (No external git imports!)
+module:
+  mounts:
+    - source: static/files
+      target: static/files
+    - source: ./node_modules/flag-icons/flags
+      target: static/flags
+    - source: ./node_modules/@fontsource/mulish/files
+      target: static/files
+    - source: ./node_modules/katex/dist/fonts
+      target: static/fonts
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    params:
+      locale: en
+      label: English
+    title: "John's Blog"
+    weight: 1
+  bn:
+    params:
+      locale: bn
+      label: বাংলা
+    title: জনের ব্লগ
+    weight: 2
+
+# default language for the content
+defaultContentLanguage: en
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Configure custom path for RSS feed. Default is "index.xml"
+# Ref: https://gohugo.io/templates/output-formats/
+outputFormats:
+  rss:
+    baseName: rss # default is index
+
+# Enable global emoji support
+enableEmoji: true
+
+# Configure sitemap
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+  disable: false
+
+# Disable Hugo's sitemap generation completely
+# disableKinds:
+#   - sitemap
+
+# Site parameters
+params:
+  # Background image of the landing page
+  background: /images/site/background.jpg
+  # Background image of the landing page for dark theme
+  #darkBackground: /images/site/background.jpg
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  logo:
+    main: /images/site/main-logo.png
+    inverted: /images/site/inverted-logo.png
+    favicon: /images/site/favicon.png
+
+  # GitHub repo of your site
+  gitRepo: https://github.com/hugo-themes/toha-example-site
+
+  # Default branch of your Git repo
+  gitBranch: main
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 5
+
+  # Configure various features of this theme
+  features:
+    # Configure theme color settings
+    theme:
+      enable: true
+      services:
+        light: true # enable light theme. default "true"
+        dark: true # enable dark theme. default "true"
+        default: system # can be either light, dark or system. default "system"
+
+    # Enable and configure portfolio
+    portfolio:
+      enable: true
+
+    # Enable and configure blog posts
+    blog:
+      enable: true
+      showAuthor: true 
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: true
+
+    # Enable comment feature. There, should be only one of them.
+    comment:
+      enable: false
+
+    # Enable Analytics
+    analytics:
+      enable: false
+
+    # Enable "Support" Link
+    support:
+      enable: false
+
+    # specify whether you want to show Table of Contents in reading page
+    toc:
+      enable: true
+
+    # Show tags under the post title
+    tags:
+      enable: true
+      on_card: true # enables tags in post cards
+
+    # Specify whether to show flag in the language selector. Default is true.
+    flags:
+      enable: true
+
+    # Enable this to use `embed-pdf` shortcode.
+    embedpdf:
+      enable: true
+
+    # Enable this to create flowcharts using shortcodes.
+    flowchart:
+      enable: true
+      services:
+        mermaid:
+          theme: default
+          darkTheme: dark
+
+    # Enable this to create mathematic expressions using `$$` blocks
+    math:
+      enable: true
+      services:
+        katex:
+          delimiters:
+            - left: $$
+              right: $$
+              display: true
+            - left: \\[
+              right: \\]
+              display: true
+            - left: $
+              right: $
+              display: false
+            - left: \\(
+              right: \\)
+              display: false
+
+    syntaxHighlight:
+      enable: true
+      services:
+        hljs:
+          noHighlightRe: /^no-highlight$/i
+
+    # Enable to use `video-player` shortcode
+    videoPlayer:
+      enable: true
+      services:
+        plyr:
+
+    # Enables copy code button
+    copyCodeButton:
+      enable: true
+
+    # Enable reading time support in post cards and in post pages. Default is "true".
+    readingTime:
+      # enable: false
+
+    # Enable post date/time display on cards and single pages. Default is "true".
+    showDate:
+      # singlePage: false
+      # postCards: false
+
+    # Number of posts to show to each page. Default is "12"
+    pagination:
+      maxPostsPerPage: 12
+
+  # Provide footer configuration.
+  footer:
+    enable: true
+    template: footer.html
+    navigation:
+      enable: true
+      customMenus: true
+    contactMe:
+      enable: true
+    credentials:
+      enable: true
+    newsletter:
+      enable: false
+    disclaimer:
+      enable: true
