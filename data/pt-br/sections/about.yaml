@@ -1,0 +1,82 @@
+# section information
+section:
+  name: Sobre
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: "Desenvolvedor Web Full-Stack"
+
+# your company information
+company:
+  name: "UniFatecie"
+  url: "https://unifatecie.edu.br"
+
+# a summary about you
+summary: |
+  Aos 47 anos, não estou apenas aprendendo a codar. Estou unindo a disciplina de quem serviu ao Exército, a precisão matemática de um ex-eletricista, e a visão prática de quem já empreendeu, para construir softwares que resolvem problemas reais.
+  
+  Minha transição para a tecnologia não começou do zero; ela é sustentada por décadas de vivência lidando com pessoas e processos (de canteiros de obras ao atendimento ao público). Quando minha esposa, que é farmacêutica, precisou de uma solução para gerenciar o catálogo de cosméticos dela, eu não procurei um app pronto: **eu construí um**.
+  
+  Desenvolvi a **Ronaya Shop**, uma PWA (Progressive Web App) multi-inquilino do zero, integrando catálogo, carrinho de compras e gestão, hospedada na nuvem. Hoje, no 4º semestre de Análise e Desenvolvimento de Sistemas na UniFatecie, meu foco é dominar as melhores práticas de Engenharia de Software.
+  
+  Sou apaixonado por Linux, Open Source e por transformar regras de negócio complexas em telas limpas e sistemas rápidos.
+
+# your social links
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "souza.josemarcossilva@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/josemssouza"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/josemssouza"
+
+- name: WhatsApp
+  icon: "fab fa-whatsapp"
+  url: "https://wa.me/5592992806648"
+
+# You can put custom buttons to link your relevant resources.
+resourceLinks:
+- title: "Meu Currículo (PDF)"
+  url: "#"
+
+# Show your badges
+badges:
+- type: certification
+  name: Análise e Desenvolvimento de Sistemas
+  url: "https://portaldoaluno.fatecie.edu.br/carteirinha/9626ed14-e840-48f5-8592-fe6cfc7b99cf"
+  badge: "images/badges/unifatecie-logo-circular.png" # <-- Atualizado com o nome do seu arquivo!
+
+- type: certification
+  name: Google Data Analytics Professional Certificate
+  url: "https://www.credly.com/badges/57821274-e8db-4f96-a3df-aa34c69e11e4/linked_in_profile"
+  badge: "/images/badges/data-analytics.png"  # <-- Sem a barra no começo!
+
+- type: certification
+  name: Escola da Nuvem
+  url: "https://escoladanuvem.org/"
+  badge: "/images/badges/escola_da_nuvem_logo.png"
+
+# Gráficos circulares das suas habilidades comportamentais (Soft Skills)
+- type: soft-skill-indicator
+  name: Resiliência
+  percentage: 95
+  color: "#00adb5"
+
+- type: soft-skill-indicator
+  name: Visão de Negócio
+  percentage: 90
+  color: "#ffc107"
+
+- type: soft-skill-indicator
+  name: Lógica
+  percentage: 85
+  color: "#28a745"

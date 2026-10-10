@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Certificados & Cursos
+  id: accomplishments
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: Google Data Analytics Professional Certificate
+  timeline: "Especialização de 8 cursos"
+  organization:
+    name: Google / Coursera
+    url: "https://www.coursera.org"
+  courseOverview: "Formação completa em análise de dados cobrindo o processo analítico de ponta a ponta (Ask, Prepare, Process, Analyze, Share, Act). Aborda ferramentas como R, SQL, Tableau e planilhas dinâmicas para geração de insights de negócios."
+  certificateURL: "https://www.coursera.org/account/accomplishments/specialization/S73Z82K4TN2K"
+
+- name: Bootcamp Suzano - Análise de Dados com Power BI
+  timeline: "Carga horária: 98 horas"
+  organization:
+    name: DIO / Suzano
+    url: "https://www.dio.me"
+  courseOverview: "Foco prático em análise de dados, modelagem, funções DAX, criação de dashboards interativos e integração com bancos de dados relacionais."
+  certificateURL: "https://www.dio.me/certificate/PJ5CGPGY/share"
+
+- name: Bootcamp Santander 2025 - Ciência de Dados com Python
+  timeline: "Carga horária: 63 horas"
+  organization:
+    name: DIO / Santander
+    url: "https://www.dio.me"
+  courseOverview: "Formação prática em Ciência de Dados, englobando lógica, estruturas de dados, e as principais bibliotecas Python para análise e processamento estatístico."
+  certificateURL: "https://www.dio.me/certificate/KA59IELZ/share"
+
+- name: Bootcamp Santander 2025 - Back-End com Python
+  timeline: "Carga horária: 58 horas"
+  organization:
+    name: DIO / Santander
+    url: "https://www.dio.me"
+  courseOverview: "Desenvolvimento de APIs, lógica de programação avançada, orientação a objetos e modelagem de bancos de dados com foco arquitetural no Back-End."
+  certificateURL: "https://www.dio.me/certificate/1EYAQNPJ/share"
+
+- name: Bootcamp Santander 2025 - Front-End
+  timeline: "Carga horária: 102 horas"
+  organization:
+    name: DIO / Santander
+    url: "https://www.dio.me"
+  courseOverview: "Construção de interfaces web interativas e responsivas com foco avançado em HTML5, CSS3, JavaScript e adoção de boas práticas de UI/UX."
+  certificateURL: "https://www.dio.me/certificate/I0QR6ICP/share"
+
+- name: MySQL Database Administration
+  timeline: "Concluído em Janeiro de 2025"
+  organization:
+    name: LinkedIn Learning
+    url: "https://www.linkedin.com/learning"
+  courseOverview: "Administração de bancos de dados relacionais, com foco em estruturação, otimização de consultas (queries), segurança e manutenção de servidores MySQL."
+  certificateURL: "https://www.linkedin.com/learning/certificates/8fb45292dbc81477fc2ec28e845c57182d0ad5f595428b429ff4ef5b43cb4996?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BMinx%2F9P0SP62rq0CgHVCIQ%3D%3D"
+
+- name: Fundamentos de Computação em Nuvem 1 e 2
+  timeline: "Duração: 5 meses"
+  organization:
+    name: Escola da Nuvem
+    url: "https://escoladanuvem.org/"
+  courseOverview: "Curso focado nos fundamentos práticos da computação em nuvem para criar, provisionar e manter sistemas usando infraestruturas escaláveis hospedadas na internet."
+  certificateURL: "#"

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fundo preto do terminal com cantos arredondados e CONTORNO BRANCO -->
+  <rect x="4" y="4" width="92" height="92" rx="14" fill="#000000" stroke="#ffffff" stroke-width="6" />
+  
+  <!-- Símbolo de Maior ( > ) em branco -->
+  <path d="M 22 30 L 47 50 L 22 70" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Cursor (_) em branco -->
+  <rect x="55" y="60" width="25" height="10" rx="2" fill="#ffffff" />
+</svg>

@@ -68,9 +68,9 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: Google Data Analytics Professional Certificate
+  url: "https://www.credly.com/badges/57821274-e8db-4f96-a3df-aa34c69e11e4/linked_in_profile" # Substitua pelo link do seu certificado real depois
+  badge: "/images/badges/google.png"
 
 - type: certification
   name: Istio and IBM Cloud Kubernetes Service

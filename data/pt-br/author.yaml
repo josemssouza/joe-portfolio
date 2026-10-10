@@ -1,0 +1,23 @@
+# some information about you
+name: "José Marcos"
+nickname: "José Marcos"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Olá, sou"
+image: "images/author/imagem-perfil-linkedin.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  github: josemssouza
+  linkedin: josemssouza
+  phone: "+5592992806648"
+  whatsapp:
+    url: "https://wa.me/5592992806648"
+    icon: "whatsapp"
+    text: "+55 92 99280-6648"
+  email: "souza.josemarcossilva@gmail.com"
+
+# some summary about what you do
+summary:
+  - Sou Desenvolvedor Web   
+  - Criador de Aplicações com IA   
+  - Sou entusiasta Linux e Opensource (FOSS)   
+  - Amo Trabalhar com Dados   

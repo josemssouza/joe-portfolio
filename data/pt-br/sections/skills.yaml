@@ -1,0 +1,73 @@
+# section information
+section:
+  name: Habilidades
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+# filter buttons (Categorias)
+buttons:
+- name: Todas
+  filter: "all"
+- name: Front-End
+  filter: "frontend"
+- name: Back-End & DevOps
+  filter: "backend-devops"
+- name: Dados
+  filter: "dados"
+
+# Your Skills
+skills:
+- name: HTML5
+  logo: /images/sections/skills/html5.svg
+  summary: "Estruturação de páginas web semânticas, acessíveis e otimizadas para navegadores."
+  categories: ["frontend"]
+
+- name: CSS3
+  logo: /images/sections/skills/css3.svg
+  summary: "Estilização de interfaces responsivas, modernas e criação de componentes visuais."
+  categories: ["frontend"]
+
+- name: JavaScript
+  logo: /images/sections/skills/javascript.svg
+  summary: "Criação de lógicas dinâmicas, consumo de APIs e interatividade em aplicações web."
+  categories: ["frontend"]
+
+- name: Banco de Dados
+  logo: /images/sections/skills/database.svg
+  summary: "Modelagem, consultas estruturadas e análise de informações com foco em regras de negócios."
+  categories: ["dados"]
+
+- name: Git & GitHub
+  logo: /images/sections/skills/git.png
+  summary: "Versionamento de código, gestão de repositórios e colaboração em times de desenvolvimento."
+  categories: ["backend-devops"]
+  url: "https://github.com/josemssouza"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Criação de imagens e empacotamento de contêineres para padronização de ambientes isolados."
+  categories: ["backend-devops"]
+  url: "https://www.docker.com/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Entusiasta de Open Source, fluente na linha de comando e administração de sistemas."
+  categories: ["backend-devops"]
+
+- name: Computação em Nuvem
+  logo: /images/sections/skills/cloud.png
+  summary: "Fundamentos de infraestrutura na nuvem para criar e manter sistemas web escaláveis."
+  categories: ["backend-devops"]
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Desenvolvimento de scripts, automação de processos e ferramentas para Ciência de Dados."
+  categories: ["dados", "backend-devops"]
+
+- name: Excel & Google Sheets
+  logo: /images/sections/skills/excel.svg
+  summary: "Análise de informações, criação de dashboards, tabelas dinâmicas e fórmulas avançadas."
+  categories: ["dados"]

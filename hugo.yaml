@@ -1,12 +1,12 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://toha.hugo-themes.com
-
+baseURL: https://josapph.pages.dev
 # Nosso Tema Soberano (Hard Fork)
 theme: "toha"
-
 # Use Hugo modules ONLY to mount local NPM assets (No external git imports!)
 module:
   mounts:
+    - source: static
+      target: static
     - source: static/files
       target: static/files
     - source: ./node_modules/flag-icons/flags
@@ -19,21 +19,22 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  pt-br:
+    params:
+      locale: pt-br
+      label: Português
+      flag: br
+    title: "JosApph"
+    weight: 1
   en:
     params:
       locale: en
       label: English
-    title: "John's Blog"
-    weight: 1
-  bn:
-    params:
-      locale: bn
-      label: বাংলা
-    title: জনের ব্লগ
+      flag: us
+    title: "JosApph"
     weight: 2
-
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: pt-br
 
 # Allow raw html in markdown file
 markup:
@@ -76,19 +77,19 @@ sitemap:
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background-white.jpg
   # Background image of the landing page for dark theme
-  #darkBackground: /images/site/background.jpg
+  darkBackground: /images/site/black-background-overlay-93.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/author/terminal-logo.svg
+    inverted: /images/author/terminal-logo.svg
+    favicon: /images/author/terminal-logo.svg
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-themes/toha-example-site
+  gitRepo: https://github.com/josemssouza/joe-portfolio
 
   # Default branch of your Git repo
   gitBranch: main

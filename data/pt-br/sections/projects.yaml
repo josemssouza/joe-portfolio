@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Projetos
+  id: projects
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  filter: true
+
+# filter buttons
+buttons:
+- name: Todos
+  filter: "all"
+- name: Desenvolvimento Web
+  filter: "web"
+- name: Análise de Dados
+  filter: "dados"
+
+# Your projects
+projects:
+- name: Estudo de Caso Cyclistic (Kaggle)
+  logo: /images/projects/r-lang.svg
+  role: Analista de Dados
+  timeline: "Projeto Capstone - Google"
+  url: "https://www.kaggle.com/code/josemarcosssouza/projeto-capstone-google-data-analytics"
+  summary: "Projeto final do Google Data Analytics. Análise exploratória e processamento de grandes volumes de dados de bicicletas compartilhadas utilizando a linguagem **R**, cobrindo todas as fases do processo analítico para gerar insights de negócios."
+  tags: ["dados"]
+
+- name: Ronaya Shop - Plataforma Multi-inquilino
+  logo: /images/sections/skills/html5.svg
+  role: Desenvolvedor Full-Stack
+  timeline: "2024 - Presente"
+  url: "https://ronaya.shop"
+  summary: "Desenvolvimento do zero de uma PWA (Progressive Web App) para gestão de catálogos e carrinho de compras de cosméticos, com hospedagem em nuvem e foco total em experiência do usuário (UX)."
+  tags: ["web"]

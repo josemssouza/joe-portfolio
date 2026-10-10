@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Experiências
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+- company:
+    name: Autônomo / Projetos Independentes
+    url: "#"
+    location: Manaus, Amazonas
+    overview: Desenvolvimento de soluções web full-stack focadas em resolver problemas reais do cotidiano.
+  positions:
+  - designation: Desenvolvedor Web Full-Stack
+    start: Janeiro 2024
+    end: Presente
+    responsibilities:
+    - "Desenvolvimento e sustentação da **Ronaya Shop**, uma PWA (Progressive Web App) multi-inquilino hospedada na nuvem."
+    - "Construção de toda a lógica de integração de catálogo de cosméticos, carrinho de compras e painel de gestão administrativa."
+    - "Aplicação das melhores práticas de Engenharia de Software, priorizando escalabilidade e a experiência do usuário (UX)."
+
+- company:
+    name: Farmácia Municipal de Codajás
+    url: "#"
+    location: Codajás, Amazonas
+    overview: Órgão público de saúde focado no fornecimento de medicamentos à população.
+  positions:
+  - designation: Desenvolvedor de Planilhas e Sistemas (Voluntário)
+    start: Abril 2023
+    end: Dezembro 2024
+    responsibilities:
+    - "Desenvolvimento de planilhas avançadas e rotinas sistêmicas para o controle rigoroso de estoque da farmácia."
+    - "Automação de processos diários, reduzindo significativamente o tempo operacional e falhas humanas na contagem."
+    - "Organização e análise de dados para otimizar o fluxo de dispensação de medicamentos para os pacientes."
+
+- company:
+    name: Norte Tech / Amazonas Energia
+    url: "#"
+    location: Manaus, Amazonas
+    overview: Concessionária responsável pela distribuição de energia elétrica.
+  positions:
+  - designation: Eletricista de Inspeção
+    start: Abril 2022
+    end: Setembro 2022
+    responsibilities:
+    - "Inspeção técnica e manutenção de redes de distribuição, aplicando lógica, precisão matemática e leitura de esquemas elétricos."
+    - "Cumprimento rigoroso de normas técnicas de segurança (NR-10, NR-35) e padrões de qualidade corporativos."
+
+- company:
+    name: Setor Farmacêutico e Atendimento
+    url: "#"
+    location: Sul e Norte do Brasil
+    overview: Vivência de mais de uma década em atendimento direto ao público e comércio.
+  positions:
+  - designation: Consultor de Vendas e Empreendedor
+    start: Fevereiro 2008
+    end: Abril 2023
+    responsibilities:
+    - "Atuação comercial em grandes redes (Farmácias São João e Panvel), adquirindo profundo domínio das regras de negócio do setor farmacêutico."
+    - "Gestão do próprio negócio como motorista autônomo, desenvolvendo extrema resiliência, administração financeira e foco na satisfação do cliente."
+
+- company:
+    name: Forças Armadas do Brasil
+    url: "#"
+    location: Manaus, Amazonas
+    overview: Exército Brasileiro e Comando da Aeronáutica.
+  positions:
+  - designation: Soldado Especializado (Obras) e Intendente
+    start: Março 1997
+    end: Março 2003
+    responsibilities:
+    - "Atuação na área de Intendência (logística e suprimentos) do Exército e especialização em obras pela Aeronáutica."
+    - "Desenvolvimento de base sólida em disciplina militar, coordenação de equipes e alta capacidade de resolução de problemas sob pressão."

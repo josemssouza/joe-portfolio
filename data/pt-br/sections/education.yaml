@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Formação Acadêmica
+  id: education
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+# Your education details.
+degrees:
+- name: Superior de Tecnologia em Análise e Desenvolvimento de Sistemas
+  icon: "fas fa-graduation-cap"
+  timeframe: "Conclusão prevista: Julho de 2027"
+  institution:
+    name: UniFatecie (Centro Universitário)
+    url: "https://unifatecie.edu.br/"
+  grade:
+    scale: "Status"
+    achieved: "Em andamento (4º Semestre)"
+  publications:
+    - title: "Foco nos estudos de Engenharia de Software, escalabilidade e boas práticas de código."
+    - title: "Base sólida em Lógica de Programação, Algoritmos e Banco de Dados."
+    - title: "Desenvolvimento de projetos práticos e aplicados à resolução de problemas reais do mercado."
