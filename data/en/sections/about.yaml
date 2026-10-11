@@ -8,97 +8,74 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: "Full-Stack Web Developer"
+
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
-
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
+  name: "UniFatecie"
+  url: "https://unifatecie.edu.br"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: |
+  At 47, I'm not just learning to code. I'm combining the discipline of someone who served in the Armed Forces, the mathematical precision of a former electrician, and the practical vision of an entrepreneur to build software that solves real-world problems.
+  
+  My transition to technology didn't start from scratch; it is supported by decades of experience dealing with people and processes (from construction sites to customer service). When my wife, who is a pharmacist, needed a solution to manage her cosmetics catalog, I didn't look for an off-the-shelf app: **I built one**.
+  
+  I developed **Ronaya Shop**, a multi-tenant PWA (Progressive Web App) from scratch, integrating a catalog, shopping cart, and management dashboard, fully hosted in the cloud. Today, in my 4th semester of Systems Analysis and Development at UniFatecie, my focus is mastering Software Engineering best practices.
+  
+  I am passionate about Linux, Open Source, and transforming complex business rules into clean interfaces and fast systems.
 
 # your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "souza.josemarcossilva@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://github.com/josemssouza"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://linkedin.com/in/josemssouza"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+- name: WhatsApp
+  icon: "fab fa-whatsapp"
+  url: "https://wa.me/5592992806648"
 
 # You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+- title: "My Resume (PDF)"
+  url: "#"
 
 # Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
+  name: Systems Analysis and Development
+  url: "https://portaldoaluno.fatecie.edu.br/carteirinha/9626ed14-e840-48f5-8592-fe6cfc7b99cf"
+  badge: "/images/badges/unifatecie-logo-circular.png"
+
+- type: certification
   name: Google Data Analytics Professional Certificate
-  url: "https://www.credly.com/badges/57821274-e8db-4f96-a3df-aa34c69e11e4/linked_in_profile" # Substitua pelo link do seu certificado real depois
-  badge: "/images/badges/google.png"
+  url: "https://www.credly.com/badges/57821274-e8db-4f96-a3df-aa34c69e11e4/linked_in_profile"
+  badge: "/images/badges/data-analytics.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
-
-- type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Escola da Nuvem
+  url: "https://escoladanuvem.org/"
+  badge: "/images/badges/escola_da_nuvem_logo.png"
 
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+  name: Resilience
+  percentage: 95
+  color: "#00adb5"
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Business Vision
   percentage: 90
-  color: yellow
+  color: "#ffc107"
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Logical Thinking
   percentage: 85
-  color: orange
-
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+  color: "#28a745"

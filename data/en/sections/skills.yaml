@@ -6,66 +6,68 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # filter buttons
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Front-End
+  filter: "frontend"
+- name: Back-End & DevOps
+  filter: "backend-devops"
+- name: Data
+  filter: "dados"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
+# Your Skills
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: HTML5
+  logo: /images/sections/skills/html5.svg
+  summary: "Structuring semantic, accessible, and browser-optimized web pages."
+  categories: ["frontend"]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: CSS3
+  logo: /images/sections/skills/css3.svg
+  summary: "Styling responsive, modern interfaces and creating reusable visual components."
+  categories: ["frontend"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: JavaScript
+  logo: /images/sections/skills/javascript.svg
+  summary: "Creating dynamic logic, API consumption, and interactivity in web applications."
+  categories: ["frontend"]
+
+- name: Database
+  logo: /images/sections/skills/database.svg
+  summary: "Data modeling, structured querying, and data analysis focused on business rules."
+  categories: ["dados"]
+
+- name: Git & GitHub
+  logo: /images/sections/skills/git.png
+  summary: "Code versioning, repository management, and collaboration in development teams."
+  categories: ["backend-devops"]
+  url: "https://github.com/josemssouza"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  summary: "Creating images and packaging containers for standardizing isolated environments."
+  categories: ["backend-devops"]
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Open Source enthusiast, fluent in the command line and systems administration."
+  categories: ["backend-devops"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+- name: Cloud Computing
+  logo: /images/sections/skills/cloud.png
+  summary: "Cloud infrastructure fundamentals for creating and maintaining scalable web systems."
+  categories: ["backend-devops"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Developing scripts, process automation, and Data Science tools."
+  categories: ["dados", "backend-devops"]
+
+- name: Excel & Google Sheets
+  logo: /images/sections/skills/excel.svg
+  summary: "Information analysis, dashboard creation, pivot tables, and advanced formulas."
+  categories: ["dados"]

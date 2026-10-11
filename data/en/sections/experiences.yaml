@@ -5,69 +5,72 @@ section:
   enable: true
   weight: 3
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
 
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Independent / Freelance Developer
+    url: "#"
+    location: Manaus, Amazonas
+    overview: Development of full-stack web solutions focused on solving real-world problems.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Full-Stack Web Developer
+    start: January 2024
+    end: Present
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - "Development and maintenance of **Ronaya Shop**, a multi-tenant PWA (Progressive Web App) hosted in the cloud."
+    - "Built the entire integration logic for the cosmetics catalog, shopping cart, and comprehensive administrative dashboard."
+    - "Applied Software Engineering best practices, prioritizing scalability and User Experience (UX)."
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Codajás Municipal Pharmacy
+    url: "#"
+    location: Codajás, Amazonas
+    overview: Public health institution focused on providing medication to the population.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Systems and Spreadsheet Developer (Volunteer)
+    start: April 2023
+    end: December 2024
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - "Developed advanced spreadsheets and systemic routines for rigorous pharmacy inventory control."
+    - "Automated daily processes, significantly reducing operational time and human error in counting."
+    - "Organized and analyzed data to optimize the flow of medication dispensing for patients."
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Norte Tech / Amazonas Energia
+    url: "#"
+    location: Manaus, Amazonas
+    overview: Utility company responsible for electric power distribution.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Inspection Electrician
+    start: April 2022
+    end: September 2022
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - "Technical inspection and maintenance of distribution networks, applying logic, mathematical precision, and electrical schematic reading."
+    - "Strict compliance with technical safety standards (NR-10, NR-35) and corporate quality guidelines."
+
+- company:
+    name: Retail and Customer Service Sector
+    url: "#"
+    location: South and North Regions, Brazil
+    overview: Over a decade of experience in direct customer service and commerce.
+  positions:
+  - designation: Sales Consultant and Entrepreneur
+    start: February 2008
+    end: April 2023
+    responsibilities:
+    - "Commercial role in major retail chains (São João and Panvel Pharmacies), acquiring profound knowledge of business rules in the pharmaceutical sector."
+    - "Managed my own business as an independent driver, developing extreme resilience, financial administration, and a strong focus on customer satisfaction."
+
+- company:
+    name: Brazilian Armed Forces
+    url: "#"
+    location: Manaus, Amazonas
+    overview: Brazilian Army and Air Force Command.
+  positions:
+  - designation: Specialized Soldier (Construction) and Quartermaster
+    start: March 1997
+    end: March 2003
+    responsibilities:
+    - "Worked in the Quartermaster area (logistics and supplies) of the Army and specialized in construction for the Air Force."
+    - "Developed a solid foundation in military discipline, team coordination, and high problem-solving capacity under pressure."
